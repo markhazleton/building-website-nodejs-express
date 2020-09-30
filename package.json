@@ -4,7 +4,7 @@
   "description": "Exercise files for my course Building a Website with Node.js and Express",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon --ignore feedback.json server.js",
     "dev": "nodemon --ignore feedback.json server.js"
   },
   "keywords": [],
